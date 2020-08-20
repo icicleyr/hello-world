@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7612acbc1a4a4ed0afa5f4ccbe42bee4, type: 3}
+  m_Name: MixedRealityToolkitConfigurationProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  targetExperienceScale: 3
+  enableCameraSystem: 0
+  cameraProfile: {fileID: 11400000, guid: a756162f77098da4888adc4f0bf75727, type: 2}
+  cameraSystemType:
+    reference: 
+  enableInputSystem: 0
+  inputSystemProfile: {fileID: 11400000, guid: 598c628f253af0b4abc77bb799a4bbe8, type: 2}
+  inputSystemType:
+    reference: 
+  enableBoundarySystem: 0
+  boundarySystemType:
+    reference: 
+  boundaryVisualizationProfile: {fileID: 11400000, guid: 1b9892c5746b74b48a6130bf696aea77,
+    type: 2}
+  enableTeleportSystem: 1
+  teleportSystemType:
+    reference: Microsoft.MixedReality.Toolkit.Teleport.MixedRealityTeleportSystem,
+      Microsoft.MixedReality.Toolkit.Services.TeleportSystem
+  enableSpatialAwarenessSystem: 0
+  spatialAwarenessSystemType:
+    reference: 
+  spatialAwarenessSystemProfile: {fileID: 11400000, guid: 276cd0922bf41814f870ea3903ff4e64,
+    type: 2}
+  diagnosticsSystemProfile: {fileID: 11400000, guid: 29614bd6572911e4b879806b4dbd2cc4,
+    type: 2}
+  enableDiagnosticsSystem: 0
+  diagnosticsSystemType:
+    reference: 
+  sceneSystemProfile: {fileID: 11400000, guid: 13e05dbf48f7bd04090ced76620f13b3, type: 2}
+  enableSceneSystem: 0
+  sceneSystemType:
+    reference: 
+  registeredServiceProvidersProfile: {fileID: 11400000, guid: 7fdeb0cdba860ea469b0da1f15c1bd2b,
+    type: 2}
+  useServiceInspectors: 0
